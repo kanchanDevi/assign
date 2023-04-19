@@ -1,0 +1,127 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+.profile{
+    border:3px solid; 
+    border-radius: 60%;
+    height:100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #1B3173;
+
+    
+}
+.link{
+    text-decoration: none;
+    color:#2E4691;
+}
+.text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color:  #1B3173;
+}
+.container{
+    max-width:960px ;
+    background-color: rgb(228, 140, 155);
+}
+.dates{
+    padding:20px;
+    color:  #1B3173;
+}
+.exp{
+   font-weight:bold;
+   white-space: none;
+   padding:0px;
+   color:  #1B3173;
+}
+
+.cols-style{
+    border-right: 7px solid #2E4691;
+
+}
+.circle{
+    border:3px solid #2E4691;
+
+    border-radius: 60%;
+    height:80px;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B3173;
+    color:white;
+    
+}
+.circles-style{
+   border-bottom: 7px solid #2E4691 ;
+   padding-top:10px;
+
+}
+.titles{
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    color:#1B3173;
+}
+.left-style{
+    border-left: 7px solid #2E4691;
+
+}
+.post{
+    padding:10px;
+    white-space: none;
+    flex-wrap: nowrap;
+    font-size: 15px;
+    padding:12px;
+    color:  #1B3173;
+}
+.center{
+  display:flex;
+   flex-direction:column;
+    justify-content:center;
+     align-items:center;
+    
+}
+.texts{
+    color:#1B3173;
+}
+@media screen and (max-width:501px){
+    .cols-style{
+        border-right: none;
+        
+    }
+  .left-style{
+    border-left: none;
+    
+}
+.post{
+    font-size: 11px;
+}
+}
+
+@media screen and (max-width:756px){
+    .ci{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top:10px;
+    }
+}
+
+@media screen and (max-width:340px){
+    .exp{
+        font-size:15px;
+        margin:0px;
+        padding:0px;
+    }
+    .container{
+        white-space: none;
+    }
+}
